@@ -2,9 +2,11 @@
   margin: 0 148px 92px;
   display: grid;
   gap: 80px;
+  list-style-type: none;
+  padding: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1124px) {
   .places {
     margin: 0 48px 92px;
   }

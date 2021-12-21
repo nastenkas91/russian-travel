@@ -2,15 +2,16 @@
   width: calc(100% - 96px);
   margin: 0 48px 92px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 16px;
+  list-style-type: none;
+  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
     width: calc(100% - 96px);
-    margin: 0px 48px 92px 48px;
-    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 48px 92px;
     gap: 14px;
   }
 }
@@ -18,16 +19,14 @@
 @media screen and (max-width: 768px) {
   .photo-grid {
     width: calc(100% - 48px);
-    margin: 0px 24px 88px 24px;
-    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 24px 88px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .photo-grid {
     width: calc(100% - 32px);
-    margin: 0px 16px 64px 16px;
-    grid-template-columns: 1fr;
+    margin: 0px 16px 64px;
     gap: 12px;
   }
 }

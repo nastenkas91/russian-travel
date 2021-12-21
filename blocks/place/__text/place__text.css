@@ -1,6 +1,10 @@
 .place__text {
   display: flex;
   flex-direction: column;
-  grid-column: 2/3;
-  grid-row: 2/3;
+}
+
+@media screen and (max-width: 320px) {
+  .place__text {
+    margin: 0 16px;
+  }
 }
