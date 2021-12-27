@@ -17,7 +17,7 @@
 .cover__container::before {
   content: "";
   background: #2a2c2f;
-  opacity: 0;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   left: 0;

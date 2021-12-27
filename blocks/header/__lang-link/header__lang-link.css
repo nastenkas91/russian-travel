@@ -4,13 +4,17 @@
   font-size: 24px;
   font-weight: normal;
   line-height: 1.17;
-  margin: 0 18px 6px 0;
   text-decoration: none;
   color: #fff;
+  transition: opacity 2s;
 }
 
 .header__lang-link:last-of-type {
   margin-right: 0;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }
 
 @media screen and (max-width: 320px) {

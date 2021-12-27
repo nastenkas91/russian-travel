@@ -2,10 +2,10 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 1.12;
-  margin: 0 18px 0 0;
   color: #fff;
   text-decoration: none;
   transition: opacity 2s;
+  margin: 0;
 }
 
 .footer__link:hover {
@@ -16,10 +16,5 @@
   .footer__link {
     font-size: 24px;
     line-height: 1;
-    margin: 0 auto 32px 0;
-  }
-
-  .footer__link:last-of-type {
-    margin-bottom: 0;
   }
 }
