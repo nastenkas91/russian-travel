@@ -1,0 +1,19 @@
+.video__item-play {
+  z-index: 2;
+  align-self: flex-start;
+  width: 41px;
+  height: 41px;
+  margin: 30px auto auto 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .video__item-play {
+    margin: 25px auto auto 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__item-play {
+    margin: 16px auto auto 16px;
+  }
+}

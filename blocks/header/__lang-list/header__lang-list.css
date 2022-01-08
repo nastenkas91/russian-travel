@@ -1,7 +1,13 @@
 .header__lang-list {
-  margin: 0 18px 6px 0;
+  margin: 0 18px 12px 0;
 }
 
 .header__lang-list:last-of-type {
   margin-right: 0;
+}
+
+@media screen and (max-width: 375px) {
+  .header__lang-list {
+    margin: 0 16px 7px 0;
+  }
 }

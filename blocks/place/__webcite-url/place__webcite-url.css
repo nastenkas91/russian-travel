@@ -3,26 +3,15 @@
   font-size: 12px;
   line-height: 1.7;
   letter-spacing: 2px;
-  margin: 0 auto 12px 0;
+  margin: 0 auto 16px 0;
   padding: 0;
   color: #aaa;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__webcite-url {
-    line-height: 1.7;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__webcite-url {
-    line-height: 1;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .place__webcite-url {
     font-size: 12px;
+    margin-bottom: 12px;
     line-height: 1;
   }
 }

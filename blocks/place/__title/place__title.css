@@ -1,7 +1,7 @@
 .place__title {
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.06;
+  line-height: 0.9;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,13 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 622px) {
+  .place__title {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 375px) {
   .place__title {
     font-size: 32px;
     line-height: 1.09;

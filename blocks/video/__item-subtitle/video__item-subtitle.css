@@ -1,0 +1,19 @@
+.video__item-subtitle {
+  z-index: 2;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 0 auto 30px 30px;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .video__item-subtitle {
+    margin: 0 auto 24px 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__item-subtitle {
+    margin: 0 auto 16px 16px;
+  }
+}

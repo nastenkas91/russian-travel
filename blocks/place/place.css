@@ -2,14 +2,14 @@
   display: grid;
   grid-template-columns: minmax(320px, 460px) auto;
   grid-template-rows: repeat(2, auto);
-  gap: 48px 40px;
+  gap: 60px 43px;
   padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: minmax(320px, 440px) auto;
-    gap: 48px 32px;
+    gap: 40px 32px;
   }
 }
 
@@ -23,7 +23,8 @@
 
 @media screen and (max-width: 622px) {
   .place {
-    grid-template-columns: auto;
-    row-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
   }
 }

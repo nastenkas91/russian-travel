@@ -3,7 +3,7 @@
   height: 24px;
   font-size: 24px;
   font-weight: normal;
-  line-height: 1.17;
+  line-height: 0.96;
   text-decoration: none;
   color: #fff;
   transition: opacity 2s;
@@ -17,13 +17,12 @@
   opacity: .8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .header__lang-link {
     width: 22px;
     height: 20px;
     font-size: 18px;
-    line-height: 1.11;
-    margin-bottom: 8px;
+    line-height: 1.17;
   }
 }
 

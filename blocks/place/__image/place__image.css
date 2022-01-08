@@ -6,3 +6,8 @@
   margin: 0;
 }
 
+@media screen and (max-width: 622px) {
+  .place__image {
+    margin-bottom: 24px;
+  }
+}
